@@ -138,6 +138,7 @@
     */
     // if / else statements
 
+    /*
     var firstName = 'John';
     var civilStatus = 'married  ';
 
@@ -179,7 +180,7 @@
         
     var firstName = 'John';
     var age = '28';
-
+    // AND operator 
     if (age < 13) {
         console.log(firstName + ' is a boy.');
     }   else if (age >= 13 && age < 20) {
@@ -190,8 +191,33 @@
         else {
         console.log(firstName + ' is a man.');
     }
+    // Ternary operator = condition, then if and lastly the else statement.
+    // the word Ternary comes from there being three parts.
+    {
+    var firstName = 'John';
+    var age = 12;
 
+    age >= 18 ? console.log(firstName + ' drinks beer. '):
+    console.log(firstName + ' drinks juice. ');
+    }
+    // switch statement 
+    var job = 'instructor'; 
+    switch (job) {
+        case 'teacher':
+        case 'instructor':
+            console.log(firstName + ' teaches kids how to code');
+            break; //these break statement stop the code from default looping
+        case 'driver':
+            console.log(firstName + ' drives an Uber in Lisbon');
+            break;
+        case 'designer':
+            console.log(firstName + ' designs beautiful websites');
+        default: //always useful to have a default. Then it is easier to spot bugs.
+            console.log(firstName + ' does something else');
+        //switch statment looks cleaner than having the blocks of if/else.
+            }
 
+    */
 
 
 </script>
